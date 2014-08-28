@@ -231,6 +231,14 @@ a.btn.btn-default.btn-teplok:focus{
 	width: 35px;
 	margin: 2px;
 }
+#header-landing h4 .days,
+#header-landing h4 .hours,
+#header-landing h4 .minutes,
+#header-landing h4 .seconds{
+	font-weight: 600;
+	color: #B3C833;
+}
+
 
 
 /** SECTION **/
