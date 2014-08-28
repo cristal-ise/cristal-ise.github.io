@@ -1,0 +1,235 @@
+/*Large Desktop*/
+@media (min-width: 1200px) {}
+
+/*Desktop*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.portfolio-landing #portfolio-grid .mix{height: 150px;}
+	.portfolio-landing #portfolio-grid .mix:hover img{margin-top: 60px;}
+	.portfolio-landing #portfolio-grid .mix .des{
+		padding: 20px 10px;
+		height: 150px;
+		top: -150px;
+	}
+	.pricing-table-landing table.table-inner > thead > tr > th,
+	.pricing-table-landing table.table-inner > tbody > tr > th,
+	.pricing-table-landing table.table-inner > tfoot > tr > th,
+	.pricing-table-landing table.table-inner > thead > tr > td,
+	.pricing-table-landing table.table-inner > tbody > tr > td,
+	.pricing-table-landing table.table-inner > tfoot > tr > td {
+	  padding: 15px;
+	  font-size: 14px;
+	  vertical-align: middle;
+	  border-top: 1px dotted #dddddd;
+	}
+	
+	.blog-landing .blog-latest-img{height: 110px;}
+	.blog-landing .blog-column .img-wrap{height: 125px;}
+	
+	.the-team-landing .ava-wrap{
+		height: 180px;
+		overflow: hidden;
+		position: relative;
+	}
+	.clients img{width: 100%;}
+}
+
+/*Small desktop or tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#header-landing .awesome-slogan h2{font-size: 40px;}
+	#header-landing .awesome-slogan h4{font-size: 20px;}
+	.portfolio-landing #portfolio-grid .mix{
+		width: 33.33333333333333%;
+		height: 155px;
+	}
+	.portfolio-landing #portfolio-grid .mix .des{
+		padding: 20px 10px;
+		height: 155px;
+		top: -155px;
+	}
+}
+
+/*Phone*/
+@media (max-width: 767px) {
+	#header-landing #logo{
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+	#header-landing #nav-menu .menus{
+		float: none;
+		font-size: 14px;
+		padding: 5px 0;
+		text-align: center;
+	}
+	#header-landing #nav-menu .menus ul li a span{display: none;}
+	#header-landing #nav-menu .menus ul li a i{display: inline-block;}
+	#header-landing .awesome-slogan{
+		text-align:center;
+		padding-top: 17%;
+	}
+	#header-landing .awesome-slogan h2{font-size: 40px;}
+	#header-landing .awesome-slogan h4{font-size: 20px;}
+	.section-page-landing .inner-section{padding: 125px 0;}
+	.portfolio-landing .nav li{margin-bottom: 0px;}
+	.portfolio-landing #portfolio-grid .mix{
+		width: 50%;
+		height: 180px;
+	}
+	.portfolio-landing #portfolio-grid .mix .des{
+		padding: 25px 10px;
+		height: 180px;
+		top: -180px;
+	}
+	.pricing-table-landing .header{padding: 15px 0 50px;}
+	.pricing-table-landing .header h3{font-size: 20px;}
+	.pricing-table-landing .circle-price-wrap{
+		width: 120px;
+		height: 120px;
+		top: 50px;
+		margin-left: -60px;
+	}
+	.pricing-table-landing .circle-price-wrap h2{
+		font-size: 35px;
+		padding: 5px 0 ;
+	}
+	.pricing-table-landing .circle-price-wrap h2 small{
+		font-size: 13px;
+		color: #909090;
+		display: block;
+	}
+	.pricing-table-landing table.table-inner > thead > tr > th,
+	.pricing-table-landing table.table-inner > tbody > tr > th,
+	.pricing-table-landing table.table-inner > tfoot > tr > th,
+	.pricing-table-landing table.table-inner > thead > tr > td,
+	.pricing-table-landing table.table-inner > tbody > tr > td,
+	.pricing-table-landing table.table-inner > tfoot > tr > td {
+		padding: 10px;
+		font-size: 13px;
+		vertical-align: middle;
+		border-top: 1px dotted #dddddd;
+	}
+	.the-team-landing .ava-wrap{
+		height: 500px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.post-additional-detail,
+	.post-additional-detail p.text-right{
+		text-align: center;
+	}
+	.post-additional-detail p{margin: 10px 0;}
+	.error-inner .icon-side{
+		font-size: 50px;
+		padding: 10px;
+	}
+	.error-inner  h1{
+		font-size: 50px;
+		margin: 0;
+		padding: 0;
+	}
+	.blog-landing .blog-column .img-wrap{height: auto;}
+}
+
+@media (max-width: 640px){
+	#header-landing .awesome-slogan{
+		text-align:center;
+		padding-top: 17%;
+	}
+	#header-landing .awesome-slogan h2{
+		padding: 10px 5px;
+		font-size: 35px;
+		margin-bottom: 0;
+	}
+	#header-landing .awesome-slogan h4{
+		padding: 5px;
+		font-size: 20px;
+		margin: 0;
+	}
+	#header-landing .awesome-slogan p{
+		font-size: 14px;
+		margin: 5px 0;
+		padding: 5px;
+	}
+	#header-landing .awesome-slogan .social-icons{
+		padding: 10px;
+	}
+}
+
+@media (max-width: 480px){
+	#header-landing{
+		padding: 20% 0;
+	}
+	#header-landing #nav-menu .menus ul li a{padding: 10px 10px;}
+	#header-landing .awesome-slogan{
+		text-align:center;
+		padding-top: 25%;
+	}
+	#header-landing .awesome-slogan h2{
+		padding: 10px 5px;
+		font-size: 28px;
+		margin-bottom: 0;
+	}
+	#header-landing .awesome-slogan .social-icons{
+		padding: 0px 10px;
+	}
+	#header-landing .awesome-slogan .social-icons img{
+		width: 25px;
+		margin: 2px;
+	}
+	.portfolio-landing #portfolio-grid .mix{
+		width: 50%;
+		height: 150px;
+	}
+	.portfolio-landing #portfolio-grid .mix .des{
+		padding: 20px 10px;
+		height: 150px;
+		top: -150px;
+	}
+	.blog-landing .blog-latest-img{
+		float: none;
+		width: 100%;
+		height: 230px;
+	}
+	.blog-landing .blog-latest-des{
+		float: none;
+		width: 100%;
+		padding:15px;
+	}
+	.the-team-landing .ava-wrap{height: 320px;}
+	.clients img{width: 100%;}
+	h2.post-heading{
+		margin: 0 0 15px 0;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 140%;
+	}
+	
+}
+
+@media (max-width: 360px){
+	#header-landing .awesome-slogan{
+		text-align:center;
+		padding-top: 30%;
+	}
+	.blog-landing .blog-latest-img{
+		float: none;
+		width: 100%;
+		height: 200px;
+	}
+	.portfolio-landing #portfolio-grid .mix{
+		width: 100%;
+		height: 180px;
+	}
+	.portfolio-landing #portfolio-grid .mix .des{
+		padding: 30px 10px;
+		height: 180px;
+		top: -180px;
+	}
+	.blog-landing .blog-latest-img{
+		float: none;
+		width: 100%;
+		height: 180px;
+	}
+	.the-team-landing .ava-wrap{height: 260px;}
+}
