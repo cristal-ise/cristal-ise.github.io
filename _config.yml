@@ -2,14 +2,12 @@
 title: Cristal-ise
 email: your-email@domain.com
 keywords: ""
-slogen: "Managing eBusiness Collaborations"
+slogen: "Framework to Cope with Change"
 tagline: "A Marie-Curie Industry-Academia Partnerships and Pathways project funded by the EU"
 description: > # this means to ignore newlines until "baseurl:"
-  The CRISTAL-ISE project aims to develop advanced knowledge of the CRISTAL Kernel in the Alpha 3i and 
-  M1i research teams and to develop new technical skills at the University of the West of England (UWE). 
-  This will address the next generation of M1i and Alpha3i customer requirements by facilitating 
-  the semantic enhancement of the kernel and the interoperation of multiple instances of the Agilium product, 
-  and will be demonstrated by deployment at Alpha3i and will enable researchers’ development at UWE and M1i.
+  CRISTAL-ISE was designed to handle the complexity of data-intensive systems and provides the flexibility 
+  to adapt to the changing scenarios typical of any production management system, or indeed 
+  any process in which workflow and data traceability is crucial, including those employing AI solutions.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 

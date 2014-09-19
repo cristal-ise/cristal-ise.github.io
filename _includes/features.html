@@ -7,55 +7,27 @@ BEGIN FEATURES SECTION
 	<div class="inner-section">
 		<div class="container">
 			<!-- BEGIN FEATURES DESCRIPTION -->
-			<h2 class="text-center">Aim of {{site.title}}</h2>
-			<h4 class="text-center">
-			{{site.description}}
-			</h4>
 			<h2 class="text-center">Main Features</h2>
+			<h4 class="text-center">
+				{{ site.description }}
+			</h4>
 			<!-- END FEATURES DESCRIPTION -->
 
 			<!-- BEGIN FEATURES COLUMN -->
 			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing border-hover-bottom text-center">
-						<h4>DESCRIPITION DRIVEN</h4>
-						<img src="assets/img/flat-icon/s1.png" class="small-icon" alt="Features image">
-						<p>
-						Facilitates data and code evolution through the entire Software Development Lifecycle 
-						</p>
-					</div><!-- /.the-box-landing .border-hover-bottom .text-center -->
-				</div><!-- /.col-md-3 col-sm-6 -->
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing border-hover-bottom text-center">
-						<h4>BUILT-IN PROVENANCE</h4>
-						<img src="assets/img/flat-icon/s2.png" class="small-icon" alt="Features image">
-						<p>
-						Everything is recorded and tracked and nothing is thrown away
-						</p>
-					</div><!-- /.the-box-landing .border-hover-bottom .text-center -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing border-hover-bottom text-center">
-						<h4>FLEXIBLE WORKFLOW</h4>
-						<img src="assets/img/flat-icon/s7.png" class="small-icon" alt="Features image">
-						<p>
-						Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
-						</p>
-					</div><!-- /.the-box-landing .border-hover-bottom .text-center -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing border-hover-bottom text-center">
-						<h4>EASY TO USE</h4>
-						<img src="assets/img/flat-icon/s3.png" class="small-icon" alt="Features image">
-						<p>
-						Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
-						</p>
-					</div><!-- /.the-box-landing .border-hover-bottom .text-center -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
+				{% for feature in site.data.features %}
+					<div class="col-md-3 col-sm-6">
+						<div class="the-box-landing border-hover-bottom text-center">
+							<h4>{{ feature.title }}</h4>
+							<img src="{{ feature.image }}" class="small-icon" alt="Features image">
+							<p> {{ feature.desc }} </p>
+						</div>
+					</div>
+				{% endfor %}
 			</div><!-- /.row -->
 			<!-- END FEATURES COLUMN -->
 
-			<h2 class="text-center">User Testemonials</h2>
+			<h2 class="text-center">User Testimonials</h2>
 			
 			<!-- BEGIN TESTIMONIAL CAROUSEL -->
 			<div id="carousel-testimonial" class="carousel-landing carousel carousel-testimonial slide" data-ride="carousel">
@@ -76,39 +48,19 @@ BEGIN FEATURES SECTION
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
-				<div class="item active">
-					<div class="testimonial-inner">
-						<h5>&#34;
-						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
-						&#34;</h5>
-						<h4 class="testimonial-name">Jessica Rice - Yogyakarta, <abbr title="Indonesia">ID</abbr></h4>
-						<div class="testimonial-avatar">
-							<img src="assets/img/avatar/avatar.jpg" class="img-circle" alt="Avatar">
-						</div><!-- /.testimonial-avatar -->
-					</div><!-- /.testimonial-inner -->
-				</div><!-- /.item .active -->
-				<div class="item">
-					<div class="testimonial-inner">
-						<h5>&#34;
-						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
-						&#34;</h5>
-						<h4 class="testimonial-name">Sam Bason - Tokyo, Japan</h4>
-						<div class="testimonial-avatar">
-							<img src="assets/img/avatar/avatar.jpg" class="img-circle" alt="Avatar">
-						</div><!-- /.testimonial-avatar -->
-					</div><!-- /.testimonial-inner -->
-				</div><!-- /.item -->
-				<div class="item">
-					<div class="testimonial-inner">
-						<h5>&#34;
-						Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
-						&#34;</h5>
-						<h4 class="testimonial-name">Sara Curtis - London, UK</h4>
-						<div class="testimonial-avatar">
-							<img src="assets/img/avatar/avatar.jpg" class="img-circle" alt="Avatar">
-						</div><!-- /.testimonial-avatar -->
-					</div><!-- /.testimonial-inner -->
-				</div><!-- /.item -->
+			  	{% for userview in site.data.testimonials %}
+					<div class="{{ userview.class }}">
+						<div class="testimonial-inner">
+							<h5>&#34;
+								{{ userview.text }}
+							&#34;</h5>
+							<h4 class="testimonial-name">{{ userview.name }}</h4>
+							<div class="testimonial-avatar">
+								<img src="{{ userview.image }}" class="img-circle" alt="Avatar">
+							</div><!-- /.testimonial-avatar -->
+						</div><!-- /.testimonial-inner -->
+					</div><!-- /.item -->
+				{% endfor %}
 			  </div><!-- /.carousel-inner -->
 			</div><!-- /.carousel-landing .carousel .carousel-testimonial .slide -->
 			<!-- END TESTIMONIAL CAROUSEL -->
