@@ -10,77 +10,25 @@ BEGIN BLOG SECTION
 			
 			<!-- BLOG STYLE 1 -->
 			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing full the-box-light-grey blog-landing">
-						<div class="blog-column">
-							<div class="img-wrap">
-								<a href="blog-detail.html">
-								<span class="show-link-icon"><i class="fa fa-link"></i></span>
-								<img src="images/blog-img/image003.jpg" alt="Image blog">
-								</a>
-							</div>
-							<div class="blog-column-des">
-								<h3><a href="blog-detail.html">Duis autem vel eum iriure dolor in hendrerit in vulputate</a></h3>
-								<p class="additional">By <a href="#fakelink">John Doe</a> about 12 hours ago</p>
-								<a href="blog-detail.html" class="btn btn-default btn-teplok"><i class="fa fa-angle-right"></i>Read more</a>
-							</div><!-- /.blog-column-des -->
-						</div><!-- /.blog-column -->
-					</div><!-- /.the-box-landing .full the-box-light-grey .blog-landing -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing full the-box-light-grey blog-landing">
-						<div class="blog-column">
-							<div class="img-wrap">
-								<a href="blog-detail.html">
+				 {% for post in site.posts %}
+					<div class="col-md-3 col-sm-6">
+						<div class="the-box-landing full the-box-light-grey blog-landing">
+							<div class="blog-column">
+								<div class="img-wrap">
+									<a href="{{ post.url }}">
 									<span class="show-link-icon"><i class="fa fa-link"></i></span>
-									<img src="images/blog-img/image002.jpg" alt="Image blog">
-								</a>
-							</div><!-- /.img-wrap -->
-							<div class="blog-column-des">
-								<h3><a href="blog-detail.html">Duis autem vel eum iriure dolor in hendrerit in vulputate</a></h3>
-								<p class="additional">By <a href="#fakelink">John Doe</a> about 12 hours ago</p>
-								<a href="blog-detail.html" class="btn btn-default btn-teplok"><i class="fa fa-angle-right"></i>Read more</a>
-							</div><!-- /.blog-column-des -->
-						</div><!-- /.blog-column -->
-					</div><!-- /.the-box-landing .full .the-box-light-grey .blog-landing -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
-			
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing full the-box-light-grey blog-landing">
-						<div class="blog-column">
-							<div class="img-wrap">
-								<a href="blog-detail.html">
-									<span class="show-link-icon"><i class="fa fa-link"></i></span>
-									<img src="images/blog-img/image001.jpg" alt="Image blog">
-								</a>
-							</div><!-- /.img-wrap -->
-							<div class="blog-column-des">
-								<h3><a href="blog-detail.html">Duis autem vel eum iriure dolor in hendrerit in vulputate</a></h3>
-								<p class="additional">By <a href="#fakelink">John Doe</a> about 12 hours ago</p>
-								<a href="blog-detail.html" class="btn btn-default btn-teplok"><i class="fa fa-angle-right"></i>Read more</a>
-							</div><!-- /.blog-column-des -->
-						</div><!-- /.blog-column -->
-					</div><!-- /.the-box-landing .full the-box-light-grey .blog-landing -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
-				
-				<div class="col-md-3 col-sm-6">
-					<div class="the-box-landing full the-box-light-grey blog-landing">
-						<div class="blog-column">
-							<div class="img-wrap">
-								<a href="blog-detail.html">
-									<span class="show-link-icon"><i class="fa fa-link"></i></span>
-									<img src="images/blog-img/image003.jpg" alt="Image blog">
-								</a>
-							</div><!-- /.img-wrap -->
-							<div class="blog-column-des">
-								<h3><a href="blog-detail.html">Duis autem vel eum iriure dolor in hendrerit in vulputate</a></h3>
-								<p class="additional">By <a href="#fakelink">John Doe</a> about 12 hours ago</p>
-								<a href="blog-detail.html" class="btn btn-default btn-teplok"><i class="fa fa-angle-right"></i>Read more</a>
-							</div><!-- /.blog-column-des -->
-						</div><!-- /.blog-column -->
-					</div><!-- /.the-box-landing .full the-box-light-grey .blog-landing -->
-				</div><!-- /.col-md-3 .col-sm-6 -->
+									<img src="{{ post.image }}" alt="{{ post.title }}">
+									</a>
+								</div>
+								<div class="blog-column-des">
+									<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									<p class="additional">By {{ post.author }} on {{ post.date }}</p>
+									<a href="{{ post.url }}" class="btn btn-default btn-teplok"><i class="fa fa-angle-right"></i>Read more</a>
+								</div><!-- /.blog-column-des -->
+							</div><!-- /.blog-column -->
+						</div><!-- /.the-box-landing .full the-box-light-grey .blog-landing -->
+					</div><!-- /.col-md-3 .col-sm-6 -->
+				{% endfor %}
 			</div><!-- /.row -->
 			<!-- END BLOG STYLE 1 -->
 			

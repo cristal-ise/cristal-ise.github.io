@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body class="tooltips" id="top" data-spy="scroll" data-target="#myScrollspy">
+	
+	
+	<!-- START PAGE -->
+	<div class="wrapper">
+	
+		<!-- HEADER -->
+		<div id="header-landing" class="inner-page">
+			{% include menu.html %}
+		</div>
+		<!-- END HEADER -->
+		
+		
+		<!-- SECTION BLOG DETAIL -->
+		<div class="section-page-landing">
+			<div class="inner-section">
+				<div class="container">
+					
+					<!-- BLOG TITLE -->
+					<h2 class="post-heading">{{ page.title }} </h2>
+					<!-- END BLOG TITLE -->
+
+					<hr />
+
+					<div class="row">
+						<div class="col-md-9">
+							<!-- BLOG POST IMAGE -->
+							<img src="{{ site.url }}/{{ page.image }}" alt="Image post" class="img-responsive img-post-detail">
+							<!-- BLOG POST IMAGE -->
+							
+							<!-- ADDITIONAL INFO BLOG -->
+							<div class="post-additional-detail">
+								<div class="row">
+									<div class="col-sm-6">
+										<p>Written by {{ page.author}} </a></p>
+									</div>
+									<div class="col-sm-6">
+										<p class="text-right">{{ page.date }}</p>
+									</div>
+								</div>
+							</div>
+							<!-- END ADDITIONAL INFO BLOG -->
+							
+							{{ content }}
+
+							<!-- TAGS -->
+							<p>Tags : <a href="#fakepath">Lorem</a> <a href="#fakepath">Ipsum</a> <a href="#fakepath">Dolor</a></p>
+							<!-- END TAGS -->
+							
+							<hr />
+						</div> <!-- END class="row" -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!-- BACK TO TOP BUTTON -->
+		<div id="back-top">
+			<a href="#top"><i class="fa fa-chevron-up"></i></a>
+		</div>
+		<!-- END BACK TO TOP -->
+
+		{% include footer.html %}
+		
+	</div>	
+	<!-- END OF PAGE -->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="{{ site.url }}/assets/js/jquery.js"></script>
+	<script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+	<script src="{{ site.url }}/assets/third/validator/bootstrapValidator.min.js"></script>
+	<script src="{{ site.url }}/assets/js/jquery.smooth-scroll.js"></script>
+	<script src="{{ site.url }}/assets/js/teplok-one-inner-page.js"></script>
+	</body>
+</html>

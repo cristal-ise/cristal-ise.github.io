@@ -4,7 +4,7 @@
 			<div class="col-sm-3">
 				<h5>ABOUT US</h5>
 				<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+				{{ site.data.footer.about-us }}
 				<br />
 				<a href="#fakelink">Read more</a>
 				</p>
@@ -12,26 +12,23 @@
 			<div class="col-sm-3">
 				<h5>NAV MENUS</h5>
 				<ul>
-					<li><a href="#fakelink">Template Features</a></li>
-					<li><a href="#fakelink">Our Services</a></li>
-					<li><a href="#fakelink">Our Portfolio</a></li>
-					<li><a href="blog-list.html">Blog Page</a></li>
-					<li><a href="#fakelink">Contact Us</a></li>
+					<li><a href="{{ site.url }}/#features">Features</a></li>
+					<li><a href="{{ site.url }}/#blog">News</a></li>
+					<li><a href="http://github.com//cristal-ise/cristal-kernel/wiki">Documentation</a></li>
+					<li><a href="{{ site.url }}/#team">Team</a></li>
+					<!--li><a href="{{ site.url }}/#contact">Contact</a></li-->
 				</ul>
 			</div>
 			<div class="col-sm-3">
 				<h5>OUR LOCATION</h5>
 				<address>
-				  <strong>Teplok - Responsive Landing Template</strong><br>
-				  Ds. Jatirejo RT 02/21 No 25A<br>
-				  Sendangadi, Mlati, Sleman<br>
-				  Yogyakarta, Indonesia<br>
-				  <abbr title="Phone">P:</abbr> (+6274) 123-4567
+				 {{ site.data.footer.address }}
+				 {{ site.data.footer.phone }}
 				</address>
 
 				<address>
 				  <strong>Email : </strong><br>
-				  <a href="mailto:#">first.last@example.com</a>
+				  <a href="mailto:#">{{ site.data.footer.email }}</a>
 				</address>
 			</div>
 			<div class="col-sm-3">
@@ -52,7 +49,7 @@
 	
 	<div class="footer">
 		<div class="container">
-			&copy; 2014 <a href="#fakelink">Company Name</a><br />
+			&copy; 2014 <a href="{{ site.url }}">{{ site.title }}</a><br />
 			<a href="#fakelink">Teplok - Responsive Landing Template</a> design with love by <a href="http://isohdesign.com" target="_blank">ID Studio</a> in Yogyakarta, <abbr title="Indonesia">ID</abbr>
 		</div><!-- /.container -->
 	</div><!-- /.footer -->

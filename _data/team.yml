@@ -1,0 +1,15 @@
+- name: Andrew Branson
+  role: DEVELOPER
+  github: http://github.com/abranson
+
+- name: Zsolt Kovacs
+  role: DEVELOPER
+  image: http://avatars1.githubusercontent.com/u/252603
+  github: http://github.com/kovax
+  google: http://www.google.com/+ZsoltKov%C3%A1cs1
+  facebook: http://www.facebook.com/zsolt.kovacs.3914
+  twitter:
+
+- name: Jetendr Shamdasani
+  role: DEVELOPER
+  github: http://github.com/LurkingFear
