@@ -40,12 +40,10 @@
 		<script src="assets/third/backstretch/jquery.backstretch.min.js"></script>
 		<script>
 			$.backstretch([
-
 				{% for image in site.data.slider %}
 	   				'images/slider/{{ image.file }}',
 				{% endfor %}
-
-				], { fade: 750, duration: 6000 });
+			], { fade: 750, duration: 6000 });
 		</script>
 		<script src="assets/js/teplok-one-page.js"></script>
 		<script src="assets/js/teplok-coming-soon.js"></script>
