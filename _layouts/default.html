@@ -41,9 +41,9 @@
 		<script>
 			$.backstretch([
 
-				{% loop_directory directory:images/slider iterator:image filter:* sort:descending %}
-	   				'images/slider/{{ image }}',
-				{% endloop_directory %}
+				{% for image in site.data.slider %}
+	   				'images/slider/{{ image.file }}',
+				{% endfor %}
 
 				], { fade: 750, duration: 6000 });
 		</script>
