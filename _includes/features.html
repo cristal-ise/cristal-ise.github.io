@@ -41,9 +41,13 @@ BEGIN FEATURES SECTION
 			
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
-				<li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-testimonial" data-slide-to="1"></li>
-				<li data-target="#carousel-testimonial" data-slide-to="2"></li>
+			  	{% for userview in site.data.testimonials %}
+					<li data-target="#carousel-testimonial" data-slide-to="{{ forloop.index0 }}" 
+					   {% if userview.class == 'item active' %}
+					    class="active"
+					    {% endif %}
+					></li>
+				{% endfor %}
 			  </ol>
 
 			  <!-- Wrapper for slides -->

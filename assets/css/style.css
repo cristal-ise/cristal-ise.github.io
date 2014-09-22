@@ -441,6 +441,9 @@ a.btn.btn-default.btn-teplok:focus{
 	-moz-box-shadow: 0px 0px 0px 5px #272727;
 	box-shadow: 0px 0px 0px 5px #272727;
 }
+.carousel-indicators li {
+	border: 1px solid #B3C833; /** Changed by KOVAX **/
+}
 
 /** PORTFOLIO **/
 .portfolio-landing{margin: 40px 0;}

@@ -10,7 +10,7 @@ BEGIN BLOG SECTION
 			
 			<!-- BLOG STYLE 1 -->
 			<div class="row">
-				 {% for post in site.posts %}
+				 {% for post in site.posts limit:4 %}
 					<div class="col-md-3 col-sm-6">
 						<div class="the-box-landing full the-box-light-grey blog-landing">
 							<div class="blog-column">

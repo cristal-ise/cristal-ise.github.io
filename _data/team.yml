@@ -1,8 +1,12 @@
 - name: Andrew Branson
-  role: DEVELOPER
+  role: ARCHITECT
+  image:
   github: http://github.com/abranson
+  google:
+  facebook:
+  twitter:
 
-- name: Zsolt Kovacs
+- name: Zsolt Kovács
   role: DEVELOPER
   image: http://avatars1.githubusercontent.com/u/252603
   github: http://github.com/kovax
@@ -12,4 +16,16 @@
 
 - name: Jetendr Shamdasani
   role: DEVELOPER
+  image:
   github: http://github.com/LurkingFear
+  google:
+  facebook:
+  twitter:
+
+- name: Richard McClatchey
+  role: RESEARCH DIRECTOR
+  image:
+  github:
+  google:
+  facebook:
+  twitter:

@@ -40,16 +40,12 @@
 		<script src="assets/third/backstretch/jquery.backstretch.min.js"></script>
 		<script>
 			$.backstretch([
-			  "images/3 logos.png",
-			  "images/FM SM JS working shot.png",
-			  "images/Knowledge Exchange diagram.png",
-			  "images/General shot 2.png",
-			  "images/Secondment chart.png",
-			  "images/Team outside offices.png",
-			  ], {
-				fade: 750,
-				duration: 6000
-			});
+
+				{% loop_directory directory:images/slider iterator:image filter:* sort:descending %}
+	   				'images/slider/{{ image }}',
+				{% endloop_directory %}
+
+				], { fade: 750, duration: 6000 });
 		</script>
 		<script src="assets/js/teplok-one-page.js"></script>
 		<script src="assets/js/teplok-coming-soon.js"></script>
