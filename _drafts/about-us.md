@@ -1,3 +1,10 @@
+---
+layout: blog-detail
+author: Zsolt Kovacs
+image: images/Logo and EU.png
+date: 24-09-2014
+---
+
 The CRISTAL-ISE project is a Marie Curie Actions, Industry-Academia Partnerships and Pathways
 project funded by the European Union. The project is a collaboration between three partners, 
 University of the West of England (UWE, UK), M1i (France) and Alpha-3i (France).
