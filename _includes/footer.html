@@ -14,7 +14,7 @@
 				<ul>
 					<li><a href="{{ site.url }}/#features">Features</a></li>
 					<li><a href="{{ site.url }}/#blog">News</a></li>
-					<li><a href="http://github.com//cristal-ise/cristal-kernel/wiki">Documentation</a></li>
+					<li><a href="{{ site.wiki }}">Documentation</a></li>
 					<li><a href="{{ site.url }}/#team">Team</a></li>
 					<!--li><a href="{{ site.url }}/#contact">Contact</a></li-->
 				</ul>
@@ -27,24 +27,14 @@
 				</address>
 
 				<address>
-				  <strong>Email : </strong><br>
-				  <a href="mailto:#">{{ site.data.footer.email }}</a>
+				  <strong>URL : </strong><br>
+				  <a href="{{ site.data.footer.url }}">{{ site.data.footer.url }}</a>
 				</address>
 			</div>
 			<div class="col-sm-3">
-				<h5>SUBSCRIBE</h5>
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,</p>
-				<form role="form" method="POST" class="form-subscribe">
-					<div class="input-group">
-					  <input type="text" class="form-control" placeholder="Email address">
-					  <span class="input-group-btn">
-						<button class="btn btn-default btn-teplok" type="button"><i class="fa fa-chevron-right"></i></button>
-					  </span>
-					</div>
-				</form>
-				<p>*we never send junks</p>
+			<!-- This used to be a SUBSCRIBE email submit form-->
 			</div><!-- /.col-sm-3 -->
-		</div><!-- /.row .text-center -->
+ 		</div><!-- /.row .text-center -->
 	</div><!-- /.container -->
 	
 	<div class="footer">

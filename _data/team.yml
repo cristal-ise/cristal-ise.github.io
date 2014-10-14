@@ -1,6 +1,6 @@
 - name: Andrew Branson
   role: ARCHITECT
-  image:
+  image: http://cristal-ise.org/wp-content/uploads/2014/01/AB-300x300.jpg
   github: http://github.com/abranson
   google:
   facebook:
@@ -16,7 +16,7 @@
 
 - name: Jetendr Shamdasani
   role: DEVELOPER
-  image:
+  image: http://cristal-ise.org/wp-content/uploads/2014/01/JS-228x300.jpg
   github: http://github.com/LurkingFear
   google:
   facebook:
@@ -24,8 +24,24 @@
 
 - name: Richard McClatchey
   role: RESEARCH DIRECTOR
-  image:
+  image: http://cristal-ise.org/wp-content/uploads/2014/01/RmcC-300x300.jpg
   github:
+  google:
+  facebook:
+  twitter:
+
+- name: Florent Martin
+  role: DEVELOPER
+  image: http://cristal-ise.org/wp-content/uploads/2014/01/FM.jpg
+  github: 
+  google:
+  facebook:
+  twitter:
+
+- name: Olivier Gattaz
+  role: DEVELOPER
+  image: http://www.infoq.com/resource/interviews/cohorte-sca-remote-osgi-olivier-gattaz/fr/mediumimage/eclipsecon-oliviergattaz.png
+  github: 
   google:
   facebook:
   twitter:
