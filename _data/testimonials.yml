@@ -1,31 +1,33 @@
-- name: Jessica Rice - Yogyakarta, <abbr title="Indonesia">ID</abbr>
+- name: Etiennette Auffray - CERN, PH-CMX, CMS ECAL, Geneva, Switzerland
   image: assets/img/avatar/avatar.jpg
   class: item active
   text: >
-         Duis 1 autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-         vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-         qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
+         During 10 years of near-continuous operation CRISTAL was updated only seven times and only 
+         one of these required a halt in production. This demonstrated that the software was both 
+         sufficiently adaptable and maintainable to satisfy CERN CMS ECAL’s demanding construction requirements.
 
-- name: Sam Bason - Tokyo, Japan
+- name: Patrick Emin - CEO M1i SA, Annecy, France
   image: assets/img/avatar/avatar.jpg
   class: item
   text: >
-         Duis 2 autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-         vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-         qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
+         Our clients and we recognise the impact made by CRISTAL in the Business Process Management
+         market and see a bright future for further exploitation of that technology.
+         Our ongoing of CRISTAL in the CRISTAL-ISE project gives us a direct cost saving effect in our R&D.
 
-- name: Sara Curtis - London, UK
+- name: Bertrand Le Goff - CEO Technoledge SA, Geneva, Switzerland
   image: assets/img/avatar/avatar.jpg
   class: item
   text: >
-         Duis 3 autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-         vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-         qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
+         The long sighted business potential of CRISTAL is becoming a reality and Technoledge is now receiving 
+         such strong evidence of interest from the market that it foresees itself as one of the future key
+         providers of data and process management technologies.
+         Thanks to CRISTAL technology Technoledge is a fairly fast growing company in a highly responsive market 
+         with a rate of 60% of leads converted into contracts.
 
-- name: Zsolt Kovax - Budapest, HU
+- name: David Manset- CEO gNubila SA, Annecy, France
   image: assets/img/avatar/avatar.jpg
   class: item
   text: >
-         Duis 3 autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
-         vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
-         qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi
+         The CRISTAL software has enabled the management of data and its provenance at the Terabyte scale
+         in neuGRID/N4U over extended timescales and with full traceability. CRISTAL constitutes a scalable 
+         and robust base to N4U’s innovative virtual laboratory.

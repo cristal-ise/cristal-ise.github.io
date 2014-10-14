@@ -39,7 +39,17 @@
 		<script src="assets/js/countdown.js"></script>
 		<script src="assets/third/backstretch/jquery.backstretch.min.js"></script>
 		<script>
-			$.backstretch([
+			function shuffleArray(array) {
+				for (var i = array.length - 1; i > 0; i--) {
+					var j = Math.floor(Math.random() * (i + 1));
+					var temp = array[i];
+					array[i] = array[j];
+					array[j] = temp;
+				}
+			 	return array;
+			}
+
+			var images = [
 	   			'images/slider/Andy sm.jpg',
 	   			'images/slider/Secondees at CERN.jpg',
 	   			'images/slider/computerswork.jpg',
@@ -52,8 +62,9 @@
 	   			'images/slider/typing.jpg',
 	   			'images/slider/whiteboard.jpg',
 	   			'images/slider/ECALScreenShotsAll3.jpg',
-			], 
-			{ fade: 750, duration: 6000 });
+			];
+
+			$.backstretch( shuffleArray(images), { fade: 750, duration: 6000 } );
 		</script>
 		<script src="assets/js/teplok-one-page.js"></script>
 		<script src="assets/js/teplok-coming-soon.js"></script>
