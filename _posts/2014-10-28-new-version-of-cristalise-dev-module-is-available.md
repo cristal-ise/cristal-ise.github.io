@@ -10,8 +10,6 @@ tag3: Dev module
 
 There was a small bug corrected in the cristalise-dev module, so please use the link bellow to download the new verion of the zip file:
 
-http://dev.cccs.uwe.ac.uk/cristalise-dev-3.0.zip
+[http://dev.cccs.uwe.ac.uk/cristalise-dev-3.0.zip](http://dev.cccs.uwe.ac.uk/cristalise-dev-3.0.zip)
 
-Alternatively you can download the cristalise-dev.jar only:
-
-http://dev.cccs.uwe.ac.uk:8081/nexus/service/local/repositories/releases/content/org/cristalise/cristalise-dev/3.0/cristalise-dev-3.0.jar
+Alternatively you can download the [cristalise-dev.jar](http://dev.cccs.uwe.ac.uk:8081/nexus/service/local/repositories/releases/content/org/cristalise/cristalise-dev/3.0/cristalise-dev-3.0.jar) only.
