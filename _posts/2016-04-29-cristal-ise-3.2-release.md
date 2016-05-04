@@ -2,6 +2,7 @@
 layout: blog-detail
 author: Andrew Branson
 date: 29-04-2016
+image: images/Logo and EU.png
 tag1: CRISTAL
 tag2: Release
 ---
