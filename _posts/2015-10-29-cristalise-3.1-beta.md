@@ -2,6 +2,7 @@
 layout: blog-detail
 author: Andrew Branson
 date: 28-10-2015
+image: images/Logo and EU.png
 tag1: CRISTAL
 tag2: Dev module
 tag3: Beta
