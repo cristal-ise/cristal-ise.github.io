@@ -13,8 +13,10 @@ The new version (3.3.0) of the CRISTAL-iSE kernel and its modules have been rele
 ## New Modules
 - [JOOQDB](https://github.com/cristal-ise/jooqdb)
 
-    Implementation of CRISTAL-iSE ClusterStorage and Lookup interfaces providing a drop-in replacement for ldap and xmldb modules.
-    It is based on http://jooq.org, an excellent DSL wrapper for SQL.
+    Implementation of CRISTAL-iSE ClusterStorage and Lookup interfaces on top of RDBMS providing a drop-in replacement 
+    for ldap and xmldb modules. It is based on http://jooq.org, an excellent DSL wrapper for SQL. The recommended backend 
+    is Postgres, unit tests are based on H2, but the current implemetation can be used in any implementation Jooq is 
+    compatible with, including MySQL (check this [link](https://www.jooq.org/doc/3.9/manual/reference/supported-rdbms/)).
 
 - [Trigger](https://github.com/cristal-ise/trigger)
 
