@@ -18,14 +18,17 @@ The new version (3.3.0) of the CRISTAL-iSE kernel and its modules have been rele
 
 - [Trigger](https://github.com/cristal-ise/trigger)
 
-    This module provides Description-Driven Trigger funcionalities, and it is based on [Quartz Scheduler]
-    (http://www.quartz-scheduler.org/).
+    This module provides Description-Driven Trigger funcionalities, and it is based on 
+    [Quartz Scheduler](http://www.quartz-scheduler.org/).
 
 - [XPath Outcome Initiator](https://github.com/cristal-ise/xpath-outcome-initiator)
 
+    This module provides  EmptyOutcomeInitiators to create XML documents from XML Schema, and XPathOutcomeInitiator
+    to update the newly created Outcome using XPath expression provided in the ActivityProperties.
+
 ## New Features in Kernel
 
-For the complete list of changes please check the [release letter](https://github.com/cristal-ise/kernel/releases/tag/v3.3.0)
+For the complete list of changes please check the [release letter](https://github.com/cristal-ise/kernel/releases/tag/v3.3.0).
 
 - Query was introduced implemeting a DescriptionObject interface. 
 
@@ -42,5 +45,5 @@ For the complete list of changes please check the [release letter](https://githu
     
 - Viewpoint and ItemProperty can be updated declaratively
 
-    Activities can contain properties with xpath expression to select data from the Outcome to update a specific Viewpoint 
+    Activities may contain properties with xpath expression to select data from the Outcome to update a specific Viewpoint 
     or ItemProperty.
