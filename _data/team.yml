@@ -1,21 +1,21 @@
-- name: Andrew Branson
-  role: ARCHITECT
-  image: http://cristal-ise.org/wp-content/uploads/2014/01/AB-300x300.jpg
-  github: http://github.com/abranson
-  google:
-  facebook:
-  twitter:
-
 - name: Zsolt Kovács
-  role: DEVELOPER
+  role: ARCHITECT
   image: http://avatars1.githubusercontent.com/u/252603
   github: http://github.com/kovax
   google: http://www.google.com/+ZsoltKov%C3%A1cs1
   facebook: http://www.facebook.com/zsolt.kovacs.3914
   twitter:
 
+- name: Andrew Branson
+  role: ex-ARCHITECT
+  image: http://cristal-ise.org/wp-content/uploads/2014/01/AB-300x300.jpg
+  github: http://github.com/abranson
+  google:
+  facebook:
+  twitter:
+
 - name: Jetendr Shamdasani
-  role: DEVELOPER
+  role: ex-DEVELOPER
   image: http://cristal-ise.org/wp-content/uploads/2014/01/JS-228x300.jpg
   github: http://github.com/LurkingFear
   google:
@@ -33,14 +33,6 @@
 - name: Olivier Gattaz
   role: DEVELOPER
   image: http://www.infoq.com/resource/interviews/cohorte-sca-remote-osgi-olivier-gattaz/fr/mediumimage/eclipsecon-oliviergattaz.png
-  github: 
-  google:
-  facebook:
-  twitter:
-  
-- name: Sandra Massonnat
-  role: DEVELOPER
-  image: https://avatars3.githubusercontent.com/u/9263650
   github: 
   google:
   facebook:
