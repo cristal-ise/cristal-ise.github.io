@@ -11,21 +11,21 @@ tag3: 3.3.0
 The new version (3.3.0) of the CRISTAL-iSE kernel and its modules have been released with many new exciting modules and features!
 
 ## New Modules
-- JOOQDB - https://github.com/cristal-ise/jooqdb
+- [JOOQDB](https://github.com/cristal-ise/jooqdb)
 
     Implementation of CRISTAL-iSE ClusterStorage and Lookup interfaces providing a drop-in replacement for ldap and xmldb modules.
     It is based on http://jooq.org, an excellent DSL wrapper for SQL.
 
-- Trigger - https://github.com/cristal-ise/trigger
+- [Trigger](https://github.com/cristal-ise/trigger)
 
     This module provides Description-Driven Trigger funcionalities, and it is based on [Quartz Scheduler]
     (http://www.quartz-scheduler.org/).
 
-- XPath Outcome Initiator - https://github.com/cristal-ise/xpath-outcome-initiator
+- [XPath Outcome Initiator](https://github.com/cristal-ise/xpath-outcome-initiator)
 
 ## New Features in Kernel
 
-For the complete list of changes please check the release letter - https://github.com/cristal-ise/kernel/releases/tag/v3.3.0
+For the complete list of changes please check the [release letter](https://github.com/cristal-ise/kernel/releases/tag/v3.3.0)
 
 - Query was introduced implemeting a DescriptionObject interface. 
 
