@@ -12,8 +12,6 @@ The new version (4.0.0) of the CRISTAL-iSE kernel and its modules have been rele
 
 ## New features:
 
-## New features:
-
 ### kernel
 - [#134](https://github.com/cristal-ise/cristal-ise/issues/134): Extend Lookup and ClusterStorae interface with bootsrap hooks enhancement kernel
 - [#93](https://github.com/cristal-ise/cristal-ise/issues/93): Integrate with apache shiro authentication and authorisation enhancement kernel
