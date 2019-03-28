@@ -43,3 +43,26 @@ The new version (4.0.0) of the CRISTAL-iSE kernel and its modules have been rele
 - [#20](https://github.com/cristal-ise/cristal-ise/issues/20): Table Add NGDynamicForm generation support enhancement
 - [#16](https://github.com/cristal-ise/cristal-ise/issues/16): Default values for enumeration is randomly set enhancement outcomeinit
 
+## Bug fixes:
+
+### kernel
+- [#156](https://github.com/cristal-ise/cristal-ise/issues/156): Collection.resolveMembers(-1, itempath) throws ObjectNotFoundException
+- [#137](https://github.com/cristal-ise/cristal-ise/issues/137): ClassNotFoundException is thrown when calling SetAgentPassword predefined step 
+- [#120](https://github.com/cristal-ise/cristal-ise/issues/120): Script context (bindings) retained between multiple executions of the same Script
+- [#92](https://github.com/cristal-ise/cristal-ise/issues/92):  Script result is not returned when the single String output has a name
+- [#88](https://github.com/cristal-ise/cristal-ise/issues/88):  Executing the same script is not threadsafe using Groovy (perhaps other languages as well)
+- [#65](https://github.com/cristal-ise/cristal-ise/issues/65): Set password to be temporary during CreateAgentFromDescription
+- [#63](https://github.com/cristal-ise/cristal-ise/issues/63):  NPE raised when populating list of values (LOV)
+
+### jooqdb
+- [#3](https://github.com/cristal-ise/cristal-ise/issues/3): JOOQ running unwanted queries
+
+### restapi
+- [#143](https://github.com/cristal-ise/cristal-ise/issues/143): Password change - temporaryPassword flag stays true until the REST server is restarted
+
+### outcomeinit
+- [#140](https://github.com/cristal-ise/cristal-ise/issues/140): Converting JSON to XML does not reproduce the same order of elements
+
+### dsl
+- [#122](https://github.com/cristal-ise/cristal-ise/issues/122):  Remove hardcoded namespace from DependencyDelegate
+- [#10](https://github.com/cristal-ise/cristal-ise/issues/10):  DependencyDescription is not generated properly
