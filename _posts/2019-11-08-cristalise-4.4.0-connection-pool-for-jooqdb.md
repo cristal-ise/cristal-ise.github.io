@@ -10,6 +10,8 @@ tag3: 4.4.0
 
 The new version (4.4.0) of the CRISTAL-iSE has been realsed with connection pool implementaion for jooqdb!
 
+This version was sponsored by [Icube SA](https://www.icube-sa.ch/) and [Titus Global-Tech](https://www.titusgt.com/).
+
 ## New features:
 
 ### kernel

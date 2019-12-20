@@ -10,6 +10,8 @@ tag3: 4.0.0
 
 The new version (4.0.0) of the CRISTAL-iSE kernel and its modules have been released with many new exciting modules and features!
 
+This version was sponsored by [Icube SA](https://www.icube-sa.ch/) and [Titus Global-Tech](https://www.titusgt.com/).
+
 ## New features:
 
 ### kernel
