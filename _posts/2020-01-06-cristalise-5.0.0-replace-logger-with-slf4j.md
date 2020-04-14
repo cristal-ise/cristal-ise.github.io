@@ -8,7 +8,7 @@ tag2: Release
 tag3: 5.0.0
 ---
 
-The new version (5.0.0) of the CRISTAL-iSE has been realsed to replace Logger with SLF4J
+The new version (5.0.0) of the CRISTAL-iSE has been released to replace Logger with SLF4J
 
 This version was sponsored by [Icube SA](https://www.icube-sa.ch/)
 
