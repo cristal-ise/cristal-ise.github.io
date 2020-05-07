@@ -1,5 +1,5 @@
 - name: Frédéric Despont - Icube SA, Director Associate, Switzerland
-  image: assets/img/avatar/frederic-despont.jpg
+  image: assets/img/avatar/avatar.jpg
   class: item active
   text: >
          Cristal is a powerful framework for our customers in life science industry where traceability
@@ -20,16 +20,6 @@
          We recognise as do our clients the impact made by CRISTAL in the Business Process Management
          market and see a bright future for further exploitation of this technology.
          Our ongoing use of CRISTAL in the CRISTAL-ISE project gives us a direct cost saving effect in our R&D.
-
-- name: Bertrand Le Goff - CEO Technoledge SA, Geneva, Switzerland
-  image: assets/img/avatar/avatar.jpg
-  class: item
-  text: >
-         The long sighted business potential of CRISTAL is becoming a reality and Technoledge is now receiving 
-         such strong evidence of interest from the market that it foresees itself as one of the future key
-         providers of data and process management technologies.
-         Thanks to CRISTAL technology Technoledge is a fairly fast growing company in a highly responsive market 
-         with a rate of 60% of leads converted into contracts.
 
 - name: David Manset- CEO gNubila SA, Annecy, France
   image: assets/img/avatar/avatar.jpg
