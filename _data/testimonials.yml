@@ -7,7 +7,7 @@
 
 - name: Etiennette Auffray - CERN, PH-CMX, CMS ECAL, Geneva, Switzerland
   image: assets/img/avatar/avatar.jpg
-  class: item active
+  class: item
   text: >
          During 10 years of near-continuous operation CRISTAL was updated only seven times and only 
          one of these required a halt in production. This demonstrated that the software was both 
