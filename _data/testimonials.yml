@@ -1,3 +1,10 @@
+- name: Frédéric Despont - Icube SA, Director Associate, Switzerland
+  image: assets/img/avatar/avatar.jpg
+  class: item active
+  text: >
+         Cristal is a powerful framework for our customers in life science industry where traceability
+         and data integrity are non-negotiable requirements.
+
 - name: Etiennette Auffray - CERN, PH-CMX, CMS ECAL, Geneva, Switzerland
   image: assets/img/avatar/avatar.jpg
   class: item active
