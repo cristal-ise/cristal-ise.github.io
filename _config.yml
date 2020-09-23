@@ -1,12 +1,12 @@
 # Site settings
-title: CRISTAL-ISE
-keywords: UWE,CERN,OpenSource,Startup,Description-Driven,Workflow,Meta-Data
+title: CRISTAL-iSE
+keywords: UWE,CERN,OpenSource,Startup,Description-Driven,Workflow,Meta-Data,Low-code,No-code,Adaptible
 slogen: Description-Driven Framework
 tagline: "Designing for Change, Operating without Interruption"
 description: > # this means to ignore newlines until "baseurl:"
-  CRISTAL-ISE was designed to handle the complexity of data-intensive systems and provides the flexibility 
+  CRISTAL-iSE was designed to handle the complexity of data-intensive systems and provides the flexibility 
   to adapt to the changing scenarios typical of any production management system, or indeed 
-  any process in which workflow and data traceability is crucial, including those employing AI solutions.
+  any process oriented system. This makes CRISTAL-iSE ideal for no-code/low-code application development.
 wiki: http://github.com//cristal-ise/cristal-ise/wiki
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
