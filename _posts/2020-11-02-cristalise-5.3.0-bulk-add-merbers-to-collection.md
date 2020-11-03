@@ -8,20 +8,20 @@ tag2: Release
 tag3: 5.3.0
 ---
 
-The new version (5.3.0) of the CRISTAL-iSE has been released to imporve perfoemance by implementing bulk add members to collection
+The new version (5.3.0) of the CRISTAL-iSE has been released to improve perfoomance by implementing bulk AddMembersToCcollection predefined step.
 
 This version was sponsored by [Titus GT](https://www.titusgt.com)
 
-## New features:
+## New features
 
 ### kernel
 - [#446](https://github.com/cristal-ise/cristal-ise/issues/446): Configure ScriptConsole to use the different language from javascript
-- [#368](https://github.com/cristal-ise/cristal-ise/issues/368): Implement bulk adding of members to a collection enhancement
+- [#368](https://github.com/cristal-ise/cristal-ise/issues/368): Implement bulk adding of members to a collection
 
-## Bug fixes:
+## Bug fixes
 
 ### kernel
 - [#427](https://github.com/cristal-ise/cristal-ise/issues/427): The JobList of the UserCode cannot be updated
 
 ### all modules
-- [#426 ](https://github.com/cristal-ise/cristal-ise/issues/426 ): Auto starting and finishing CompositeActivity overwrites the previous event bug
+- [#426 ](https://github.com/cristal-ise/cristal-ise/issues/426 ): Auto starting and finishing CompositeActivity overwrites the previous event
